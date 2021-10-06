@@ -20,5 +20,8 @@ User Story #9: The img element should be centered within its parent element.
 10.4.21
 - adding basic user story functionality. Will need to actually add content. Still missing user story #8 and #9
 
-10.6.20
+10.6.21
 - Added content to the main page. Now to work on adding styling and responsiveness.
+
+10.6.21
+- all tests passed ready to submit.

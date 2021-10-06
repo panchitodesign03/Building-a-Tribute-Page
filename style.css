@@ -1,4 +1,16 @@
+#img-div{
+    /*Centers children items using flexbox.*/
+    display: flex;
+    justify-content: center;
+}
+
+
 #image {
+    display: block;
+    /*makes the image responsive*/
     max-width: 100%;
     height: auto;
+
+   
 }
+

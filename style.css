@@ -1,3 +1,16 @@
+#title {
+    background-color: rgb(230, 218, 218);
+    /*Makes it possible to control children using flex-box*/
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    display: block;
+}
+
 #img-div{
     /*Centers children items using flexbox.*/
     display: flex;

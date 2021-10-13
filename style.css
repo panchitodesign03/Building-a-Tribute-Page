@@ -10,6 +10,22 @@
     justify-content: center;
     align-items: center;
 }
+
+
+#img-div{
+    background-color:  rgb(248, 235, 217);
+    /*Centers children items using flexbox.*/
+    display: flex;
+    justify-content: center;
+}
+
+#image {
+    display: block;
+    /*makes the image responsive*/
+    max-width: 100%;
+    height: auto;
+}
+
 #tribute-info{
   background-color: rgb(250, 223, 185) ;
 }
@@ -53,6 +69,11 @@ h2{
   #img-caption, #tribute-info {
       font-size: 25.44px;
   }
+  figure {
+      display: flex;
+      flex-direction: column;
+  }
+}
 
 /*
 h1 {
@@ -74,21 +95,5 @@ h2 {
 
 
 
-#img-div{
-    background-color:  rgb(248, 235, 217);
-    /*Centers children items using flexbox.*/
-    display: flex;
-    justify-content: center;
-}
-
-
-#image {
-    display: block;
-    /*makes the image responsive*/
-    max-width: 100%;
-    height: auto;
-
-   
-}
 
 

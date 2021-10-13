@@ -8,27 +8,31 @@
     <title>FCC Tribute Page</title>
     <!-- css stylesheet-->
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Font+Name">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 
 <body>
 <div id="main">
     <div id="title">
         <h1 class="title">Dr. Norman Borlaug</h1>
-        <h3 class="title">The man who saved a billion lives.</h3>
+        <h2 class="title">The man who saved a billion lives.</h2>
+        <div id="img-div">
+            <figure>
+                <img id="image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute-page-main-image.jpg">
+                <figcaption id="img-caption">
+                    Dr. Norman Borlaug, third from the left, trains biologists in Mexico on how to increase wheat yields
+                    - part of his
+                    life-long war on hunger.
+                </figcaption>
+            </figure>
+        </div>
+
     </div>
     <!--The img element should responsively resize, relative to the width of its parent element, without
             exceeding its original size. -->
-    <div id="img-div">
-        <figure>
-            <img id="image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute-page-main-image.jpg">
-            <figcaption id="img-caption">
-                Dr. Norman Borlaug, third from the left, trains biologists in Mexico on how to increase wheat yields
-                - part of his
-                life-long war on hunger.
-            </figcaption>
-        </figure>
-    </div>
+
     <div id="tribute-info">
         <h2>Timeline of historical events.</h2>
         <ul>
@@ -80,10 +84,10 @@
             <li>2009 - dies at the age of 95.</li>
         </ul>
         <p>
-            <q>Borlaug's life and achievement are testimony to the far-reaching contribution that one man's towering
+            <q><em>Borlaug's life and achievement are testimony to the far-reaching contribution that one man's towering
                 intellect,
                 persistence and scientific vision can make to human peace and progress.<q>
-                    -- Indian Prime Minister Manmohan Singh
+                    -- Indian Prime Minister Manmohan Singh</em>
         </p>
         <footer>
             <p>If you have time, you should read more about

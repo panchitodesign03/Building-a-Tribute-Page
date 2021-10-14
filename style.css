@@ -1,6 +1,9 @@
+body{
+    font-family: 'Lora', serif;
+}
 #main{
     background-color: rgb(255, 255, 255);
-    font-family: 'Lora', serif;
+    
 }
 #title {
     background-color: rgb(250, 223, 185);
